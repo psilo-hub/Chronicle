@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "thought": { "type": "string" },
+    "expression": {
+      "type": "string",
+      "enum": ["neutral", "happy", "sad"]
+    },
+    "dialogue": { "type": "string" }
+  },
+  "required": ["thought", "expression", "dialogue"]
+}
