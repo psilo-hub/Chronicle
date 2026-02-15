@@ -32,7 +32,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           # This grabs the "jar-with-dependencies" created by your assembly plugin
-          files: target/chronicle-rpg-*-jar-with-dependencies.jar
+          files: target/Chronicle-*-jar-with-dependencies.jar
           name: Release ${{ github.ref_name }}
           draft: false
           prerelease: false
