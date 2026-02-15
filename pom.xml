@@ -6,7 +6,7 @@
 
   <groupId>free.svoss</groupId>
   <artifactId>Chronicle</artifactId>
-  <version>v0.0.1</version>
+  <version>v0.0.2</version>
   <url>https://github.com/psilo-hub/Chronicle</url>
 
   <properties>
