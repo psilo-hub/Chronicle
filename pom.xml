@@ -5,8 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>free.svoss</groupId>
-  <artifactId>chronicle-rpg</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>Chronicle</artifactId>
+  <version>v0.0.1</version>
   <url>https://github.com/psilo-hub/Chronicle</url>
 
   <properties>
@@ -105,5 +105,10 @@
       <name>GitHub Packages</name>
       <url>https://maven.pkg.github.com/psilo-hub/Chronicle</url>
     </repository>
+    <snapshotRepository>
+    <id>github</id>
+    <name>GitHub Packages Snapshots</name>
+    <url>https://maven.pkg.github.com/psilo-hub/Chronicle</url>
+  </snapshotRepository>
   </distributionManagement>
 </project>
